@@ -8,7 +8,11 @@ The Rust line `use rand::Rng;`, which follows the pattern use `<crate>::<trait>`
 
 In Rust, it's possible to redefine a variable with the same name (like guess); this is called **shadowing**. It is commonly used to convert a variable from one type to another.
 
-`Pattern => Expression/code` <- This is arm pattern
+`Pattern => Expression/code` <- This is arm pattern for a `match` expression.
+
+Using `match` (or `if let`) is a **best practice** for handling the `Result` type. It allows for graceful error handling without crashing the program, making it preferable to `.expect()` in production code.
+
+Any syntax, like `.parse()`, that returns a `Result` type will have `Ok` and `Err` variants, because `Result` is an enum.
 
 ## Command ⌨️
 
