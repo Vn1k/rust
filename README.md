@@ -1,6 +1,6 @@
 # Rust 🦀
 
-## Understanding 💡 (more detail in every rust file in the [projects](https://github.com/Vn1k/rust/blob/15716702a23c8c247508f60fe8fbdf98a82a4e7e/projects) folder)
+## Understanding 💡 (more detail in every rust file in the [projects](https://github.com/Vn1k/rust/tree/main/projects) folder)
 
 An `!` in Rust indicates a macro, which is expanded before the code is compiled into Rust's internal representation. Without the `!`, you are calling a function, not a macro.
 
