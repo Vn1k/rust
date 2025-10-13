@@ -1,10 +1,14 @@
 # Rust 🦀
 
-## Understanding 💡
+## Understanding 💡 (more detail in every rust file in the [projects](https://github.com/Vn1k/rust/blob/15716702a23c8c247508f60fe8fbdf98a82a4e7e/projects) folder)
 
 An `!` in Rust indicates a macro, which is expanded before the code is compiled into Rust's internal representation. Without the `!`, you are calling a function, not a macro.
 
 The Rust line `use rand::Rng;`, which follows the pattern use `<crate>::<trait>`, can be understood like TypeScript's `import { function_or_interface } from 'package-name'`
+
+In Rust, it's possible to redefine a variable with the same name (like guess); this is called **shadowing**. It is commonly used to convert a variable from one type to another.
+
+`Pattern => Expression/code` <- This is arm pattern
 
 ## Command ⌨️
 
