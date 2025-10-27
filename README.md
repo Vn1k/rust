@@ -14,6 +14,7 @@ Using `match` (or `if let`) is a **best practice** for handling the `Result` typ
 
 Any syntax, like `.parse()`, that returns a `Result` type will have `Ok` and `Err` variants, because `Result` is an enum.
 
+`const VARIABLE_NAME` is always immutable, its similar to other programming languages.
 ## Command ⌨️
 
 ### Cargo 📦
